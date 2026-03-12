@@ -27,8 +27,7 @@ The UI automation suite validates critical user login journeys on the Swag Labs 
 * **Driver Management:** `webdriver-manager` (No manual ChromeDriver downloads required)
 
 ### Prerequisites & Setup
-Ensure you have Python 3 installed on your system. Before running the tests, install the required dependencies:
-
+Ensure you have Python 3 installed on your system. Before running the tests, **open your terminal and run the following command** to install the required dependencies:
 ```bash
 pip install pytest selenium webdriver-manager
 ```
@@ -37,10 +36,13 @@ pip install pytest selenium webdriver-manager
 1. Clone the repository to your local machine
 2. Open terminal (Command Prompt, PowerShell, or macOS Terminal)
 3. Navigate to Folder qa-automation-portfolio/ui-automation
-4. Execute this line ```bash
-   python -m pytest test_saucedemo.py -v```
+4. Execute this line
+   ```bash
+   python -m pytest test_saucedemo.py -v
 
 ### How to Run the Tests via IDE (VS Code)
 1. Clone the Repo
 2. Open the Repo Folder via VS Code
-3. Execute this line ```python -m pytest test_saucedemo.py -v```
+3. Execute this line
+   ```bash
+   python -m pytest test_saucedemo.py -v
