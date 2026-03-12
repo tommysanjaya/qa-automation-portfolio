@@ -39,10 +39,12 @@ pip install pytest selenium webdriver-manager
 4. Execute this line
    ```bash
    python -m pytest test_saucedemo.py -v
-
 ### How to Run the Tests via IDE (VS Code)
-1. Clone the Repo
-2. Open the Repo Folder via VS Code
-3. Execute this line
+1. Clone the repository and open the root folder (qa-automation-portfolio) in VS Code.
+2. Open the integrated terminal (Ctrl + `).
+3. Navigate to the UI automation folder
+   ```bash
+   cd ui-automation
+4. Execute this line
    ```bash
    python -m pytest test_saucedemo.py -v
