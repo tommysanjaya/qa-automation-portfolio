@@ -37,7 +37,8 @@ pip install pytest selenium webdriver-manager
 1. Clone the repository to your local machine
 2. Open terminal (Command Prompt, PowerShell, or macOS Terminal)
 3. Navigate to Folder qa-automation-portfolio/ui-automation
-4. Execute this line ```python -m pytest test_saucedemo.py -v```
+4. Execute this line ```bash
+   python -m pytest test_saucedemo.py -v```
 
 ### How to Run the Tests via IDE (VS Code)
 1. Clone the Repo
