@@ -66,7 +66,8 @@ pip install requests
 1. Clone the repository to your local machine.
 2. Open your terminal (Command Prompt, PowerShell, or macOS Terminal).
 3. Navigate to the folder: `qa-automation-portfolio/api-automation`
-4. Execute this line:
+4. **Configuration:** Open `generate_users_csv.py` in any text editor and replace the `"<YOUR_API_KEY>"` placeholder with a valid API key. Generate from `https://app.reqres.in/api-keys`
+5. Execute this line:
    ```bash
    python generate_users_csv.py
 ### How to Run the Tests via IDE (VS Code)
@@ -75,7 +76,8 @@ pip install requests
 3. Navigate to the api-automation folder
    ```bash
    cd api-automation
-4. Execute this line
+4. **Configuration:** Open `generate_users_csv.py` in any text editor and replace the `"<YOUR_API_KEY>"` placeholder with a valid API key. Generate from `https://app.reqres.in/api-keys`
+5. Execute this line
    ```bash
    python generate_users_csv.py
    
